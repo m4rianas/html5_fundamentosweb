@@ -1,0 +1,11 @@
+.container{
+    justify-content: center;
+    color: mediumvioletred;
+    text-align: center;
+}
+
+.container > div1{
+    color: mediumvioletred;
+    justify-content: flex-end;
+    text-align: center;
+}

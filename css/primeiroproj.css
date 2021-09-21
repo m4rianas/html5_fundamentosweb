@@ -1,5 +1,6 @@
 .container {
     display: flex;
+    justify-content: center;
 }
 
 .container > div{
@@ -10,16 +11,17 @@
 
 p {
     font-size: 25px;
-    color: rgb(250, 162, 0);
-    padding: 30px;
+    color: deepskyblue;
+    padding-left: 20px;
+    text-align: center;
+    
 }
 
-.container > div1{
-    background-color: black;
-    align-items: flex-end;
-    border: black;
+h1{
+    font-size: 35px;
+    color: royalblue;
+    padding-left: 150px;
 }
-
 
 
 
