@@ -2,10 +2,42 @@
     justify-content: center;
     color: mediumvioletred;
     text-align: center;
+    flex-flow: row;
+    font-family: cursive;
+    align-items: center;
 }
 
 .container > div1{
     color: mediumvioletred;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
+    font-family: cursive;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.menu li{
+    display: inline;
+    padding: 50px;
+    padding-left: 300px;
+}
+
+.menu li a{
+    font-size: 22px;
+    color: orangered;
+}
+
+.menu li a:hover{
+    color: gold;
+}
+
+menu{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }

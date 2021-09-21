@@ -1,6 +1,7 @@
 .container {
     display: flex;
     justify-content: center;
+    flex-flow: row;
 }
 
 .container > div{
@@ -14,14 +15,28 @@ p {
     color: deepskyblue;
     padding-left: 20px;
     text-align: center;
-    
+    font-family: cursive;
 }
 
 h1{
     font-size: 35px;
-    color: royalblue;
+    color: darkorange;
     padding-left: 150px;
+    font-family: cursive;
+    font-style: oblique;
 }
 
+.menu li{
+    display: inline;
+    padding: 50px;
+    padding-left: 300px;
+}
 
+.menu li a{
+    font-size: 22px;
+    color: deeppink;
+}
 
+.menu li a:hover{
+    color:greenyellow
+}
