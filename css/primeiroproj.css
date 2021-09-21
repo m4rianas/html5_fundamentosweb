@@ -40,3 +40,12 @@ h1{
 .menu li a:hover{
     color:greenyellow
 }
+
+.social{
+    display: inline;
+}
+
+.tm{
+    width: 70px;
+    padding: 50px;
+}
