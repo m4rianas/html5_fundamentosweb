@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     flex-flow: row;
+    align-items: space-between;
+    padding: 30px;
 }
 
 .container > div{
@@ -16,14 +18,16 @@ p {
     padding-left: 20px;
     text-align: center;
     font-family: cursive;
+    margin: 30px;
 }
 
 h1{
-    font-size: 35px;
+    font-size: 45px;
     color: darkorange;
-    padding-left: 150px;
+    padding-left: 300px;
     font-family: cursive;
     font-style: oblique;
+
 }
 
 .menu li{
