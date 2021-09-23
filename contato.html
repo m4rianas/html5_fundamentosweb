@@ -24,17 +24,19 @@
     </h1>
     <ul1>
         <label for="Nome"> Nome: </label><br>
-        <input type="Nome" id="Nome">
-        <textarea name="Nome:" id="Nome:" cols="30" rows="1"></textarea><br>
+        <input type="Nome" id="Nome" onkeyup='validarNome()'>
+        <div id='txtNome'></div>
+        <br>
         <label for="E-mail"> E-mail: </label><br>
-        <input type="E-mail" id="E-mail">
-        <textarea name="E-mail:" id="E-mail:" cols="30" rows="1"></textarea><br>
+        <input type="E-mail" id="E-mail" onkeyup='validarEmail()'>
+        <div id='txtEmail'></div>
+        <br>
         <label for="Assunto"> Assunto: </label><br>
-        <input type="Assunto" id="Assunto">
-        <textarea name="Assunto:" id="Assunto:" cols="60" rows="8"></textarea>
+        <textarea name="Assunto" id="Assunto" cols="60" rows="8" onkeyup='validarAssunto()'></textarea>
+        <div id='txtAssunto'></div>
     </ul>
     <br>
-    <button>
+    <button onclick='enviar()'> 
         Enviar
     </button>
     </div>
@@ -46,8 +48,30 @@
             Rua: Melchior Giola, 301 - 05664-000. <br>
              Paraisópolis, Vila Andrade, São Paulo.
         </p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.653348399148!2d-46.72809178502119!3d-23.61676208465537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56cb49120d6b%3A0xc454361ea2a4430e!2sRua%20Melchior%20Giola%2C%20301%20-%20Vila%20Andrade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005664-000!5e0!3m2!1spt-BR!2sbr!4v1632240901875!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.653348399148!2d-46.72809178502119!3d-23.61676208465537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56cb49120d6b%3A0xc454361ea2a4430e!2sRua%20Melchior%20Giola%2C%20301%20-%20Vila%20Andrade%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005664-000!5e0!3m2!1spt-BR!2sbr!4v1632240901875!5m2!1spt-BR!2sbr"
+                width="600" 
+                height="450" 
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                onmousemove="mapaZoom()"
+                onmouseout="mapaNormal()"
+                id='mapa'>
+            </iframe>
     </div>
+
+        <a href="https://www.facebook.com/mariiiidoben">
+            <img class= "tm" src="assets/img/facebook.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/__maaar1/">
+            <img class= "tm" src="assets/img/instagram.png" alt="">
+        </a>
+        <a href="https://twitter.com/__m4r14n4">
+            <img class= "tm" src="assets/img/twitter.png" alt="">
+        </a>
+        <a href="https://www.linkedin.com/feed/">
+            <img class= "tm" src="assets/img/linkedin (1).png" alt="">
+        </a>
 </body>
 
     <script src="assets/js/script.js"></script>

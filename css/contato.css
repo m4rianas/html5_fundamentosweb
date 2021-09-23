@@ -41,3 +41,10 @@ menu{
     text-align: center;
     align-items: center;
 }
+
+.tm {
+    width: 70px;
+    padding: 10px;
+    padding-inline-start: 150px;
+    
+}
